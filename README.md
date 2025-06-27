@@ -51,7 +51,7 @@ The simulation:
 ![image](FSMtable.png)
 
 ## Resource usage summary
-![image](ResourceUsageSUmmary.png)
+![image](ResourceUsageSummary.png)
 
 ## Waveform
 ![image](waveform.png)
