@@ -38,23 +38,25 @@ To simulate using ModelSim:
 vsim work.spi_slave_tb
 do spi_slave_wave.do
 
+```
+
 The simulation:
   Sends a single byte 0x3C from the master.
   Observes received_data = 0x3C on the slave.
   Monitors signal transitions on sclk, mosi, miso.
 
 ## RTL view
-![image](RTLview.png)
+![RTL View](RTLview.png)
 
 ## FSM
-![image](FSM.png)
-![image](FSMtable.png)
+![FSM Diagram](FSM.png)
+![FSM Table](FSMtable.png)
 
 ## Resource usage summary
-![image](ResourceUsageSummary.png)
+![Resource Usage Summary](ResourceUsageSummary.png)
 
 ## Waveform
-![image](waveform.png)
+![Waveform](waveform.png)
 
 
 
