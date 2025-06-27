@@ -44,17 +44,17 @@ The simulation:
   Monitors signal transitions on sclk, mosi, miso.
 
 ## RTL view
-![image](https://github.com/user-attachments/assets/41595262-8576-4ed3-a36e-59186549cf9b)
+![image](RTLview.png)
 
 ## FSM
-![image](https://github.com/user-attachments/assets/7aba84fc-94ef-411e-a800-e08bc3e9ea96)
-![image](https://github.com/user-attachments/assets/8ac1e3fc-24dd-43e2-88c8-b19b8eecf24a)
+![image](FSM.png)
+![image](FSMtable.png)
 
 ## Resource usage summary
-![image](https://github.com/user-attachments/assets/65e139f4-7c3f-493d-b6b8-51fdf9dd9245)
+![image](ResourceUsageSUmmary.png)
 
 ## Waveform
-![image](https://github.com/user-attachments/assets/06edb1c1-fd7c-45f5-abcb-9e8c55741cea)
+![image](waveform.png)
 
 
 
