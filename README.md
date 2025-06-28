@@ -2,16 +2,6 @@
 
 This repository contains a simple SPI slave implementation in SystemVerilog that supports **single-byte (8-bit)** SPI communication. It is designed to work with SPI Mode 0 (CPOL = 0, CPHA = 0), and can be simulated using ModelSim and synthesized in Quartus.
 
-## 📦 Features
-
-- SPI slave with:
-  - 8-bit shift-in on `MOSI`
-  - 8-bit shift-out on `MISO`
-  - Finite State Machine (FSM) control
-  - `done` signal indicates a full byte received
-- Edge detection of `SCLK` for proper timing
-- Works with external SPI master (e.g., Arduino, STM32)
-
 ## 🔧 Files
 
 - `spi_slave.sv` — Main RTL module
@@ -23,8 +13,8 @@ This repository contains a simple SPI slave implementation in SystemVerilog that
 | Signal | Direction | Description                  |
 |--------|-----------|------------------------------|
 | `clk`  | Input     | System clock                 |
-| `rst`  | Input     | Active-high reset            |
-| `cs`   | Input     | Chip select (active low)     |
+| `rst`  | Input     | Reset                        |
+| `cs`   | Input     | Chip select                  |
 | `sclk` | Input     | SPI clock from master        |
 | `mosi` | Input     | Master Out, Slave In         |
 | `miso` | Output    | Master In, Slave Out         |
